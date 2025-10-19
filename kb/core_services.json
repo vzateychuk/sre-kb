@@ -1,0 +1,378 @@
+{
+  "category": "core_services",
+  "created": "2025-10-17T21:55:59.366137",
+  "last_updated": "2025-10-18T12:00:00.000000",
+  "items": [
+    {
+      "id": "service_1",
+      "service_name": "Mac maps",
+      "methods": [],
+      "attributes": [
+        {
+          "name": "status",
+          "purpose": "Legacy legal agreement application",
+          "initialization": "Existing application",
+          "display_location": "Legal Agreement Apps portfolio"
+        }
+      ],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "",
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-1.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:27:13.639902",
+      "last_updated": "2025-10-17T22:27:13.639908"
+    },
+    {
+      "id": "service_2",
+      "service_name": "Magnus",
+      "methods": [],
+      "attributes": [
+        {
+          "name": "technology_stack",
+          "purpose": "New version of Mac maps",
+          "initialization": "Angular",
+          "display_location": "Legal Agreement Apps portfolio"
+        }
+      ],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "",
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-1.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:27:13.639912",
+      "last_updated": "2025-10-17T22:27:13.639913"
+    },
+    {
+      "id": "service_3",
+      "service_name": "DB forms",
+      "methods": [],
+      "attributes": [
+        {
+          "name": "alias",
+          "purpose": "Legal agreement application",
+          "initialization": "mac sdb phone",
+          "display_location": "Legal Agreement Apps portfolio"
+        }
+      ],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "",
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-1.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:27:13.639915",
+      "last_updated": "2025-10-17T22:27:13.639916"
+    },
+    {
+      "id": "service_4",
+      "service_name": "Legal Agreement Backend Services",
+      "methods": [],
+      "attributes": [
+        {
+          "name": "owner",
+          "purpose": "Services primarily worked on by Sushil",
+          "initialization": "Sushil Kandavelu",
+          "display_location": "Backend services supporting legal agreement applications"
+        },
+        {
+          "name": "qa_support",
+          "purpose": "Testing support provided by the QA team",
+          "initialization": "Yes",
+          "display_location": "Backend services supporting legal agreement applications"
+        }
+      ],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "",
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-1.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:27:13.639917",
+      "last_updated": "2025-10-17T22:27:13.639918"
+    },
+    {
+      "id": "service_5",
+      "service_name": "Agreement Creation Service",
+      "methods": [
+        {
+          "name": "createISDAgreement",
+          "functionality": "Creates a new ISD agreement.",
+          "parameters": [
+            "userPersona",
+            "mandatoryFields"
+          ],
+          "return_type": "AgreementID"
+        },
+        {
+          "name": "validateAgreement",
+          "functionality": "Validates that an agreement has been successfully created.",
+          "parameters": [
+            "AgreementID"
+          ],
+          "return_type": "Boolean"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "agreementType",
+          "purpose": "Specifies the type of agreement being created.",
+          "initialization": "Set during agreement creation.",
+          "display_location": "Agreement details page."
+        }
+      ],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "",
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-2.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:50:30.440897",
+      "last_updated": "2025-10-17T22:50:30.440904"
+    },
+    {
+      "id": "service_6",
+      "service_name": "MAC STP Service",
+      "methods": [],
+      "attributes": [
+        {
+          "name": "UI",
+          "purpose": "User Interface for MAC STP",
+          "initialization": "Initialized with Angular latest standards",
+          "display_location": "Front End"
+        }
+      ],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "",
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-2.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:50:30.440909",
+      "last_updated": "2025-10-17T22:50:30.440910"
+    },
+    {
+      "id": "service_7",
+      "service_name": "Regression Testing Service",
+      "methods": [
+        {
+          "name": "runRegressionTests",
+          "functionality": "Runs automated regression tests.",
+          "parameters": [],
+          "return_type": "TestResults"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "testType",
+          "purpose": "Specifies the type of test being executed (API or UI).",
+          "initialization": "Set during test configuration.",
+          "display_location": "Test execution logs."
+        }
+      ],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "",
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-2.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:50:30.440912",
+      "last_updated": "2025-10-17T22:50:30.440912"
+    },
+    {
+      "id": "service_8",
+      "service_name": "API Service",
+      "methods": [
+        {
+          "name": "getSwaggerDocumentation",
+          "functionality": "Retrieves the Swagger documentation for the APIs.",
+          "parameters": [],
+          "return_type": "SwaggerDocumentation"
+        }
+      ],
+      "attributes": [],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "",
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-2.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:50:30.440914",
+      "last_updated": "2025-10-17T22:50:30.440915"
+    },
+    {
+      "id": "service_9",
+      "service_name": "FAST Framework",
+      "methods": [
+        {
+          "name": "runUITests",
+          "functionality": "Запуск автоматизированных UI тестов на Selenium",
+          "parameters": ["testSuite", "environment"],
+          "return_type": "TestResults"
+        },
+        {
+          "name": "runAPITests",
+          "functionality": "Запуск автоматизированных API тестов",
+          "parameters": ["apiEndpoints", "testCases"],
+          "return_type": "TestResults"
+        },
+        {
+          "name": "publishToDashboard",
+          "functionality": "Публикация результатов тестов на FAST dashboard",
+          "parameters": ["testResults"],
+          "return_type": "void"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "framework_type",
+          "purpose": "Корпоративный фреймворк Citi для автоматизации тестирования",
+          "initialization": "UI Automation (Selenium) + API Testing + Dashboard",
+          "display_location": "FAST Dashboard"
+        }
+      ],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "Framework for Automated Software Testing - корпоративный стандарт Citi для автоматизированного тестирования. Обеспечивает видимость результатов для менеджмента через dashboard.",
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "service_10",
+      "service_name": "Renovate Bot",
+      "methods": [
+        {
+          "name": "scanDependencies",
+          "functionality": "Сканирование зависимостей проекта (Maven, Gradle, npm)",
+          "parameters": ["repositoryPath"],
+          "return_type": "DependencyList"
+        },
+        {
+          "name": "checkUpdates",
+          "functionality": "Проверка доступных обновлений зависимостей",
+          "parameters": ["dependencyList"],
+          "return_type": "UpdatesList"
+        },
+        {
+          "name": "createPullRequest",
+          "functionality": "Автоматическое создание PR с обновлениями",
+          "parameters": ["updates", "config"],
+          "return_type": "PullRequest"
+        },
+        {
+          "name": "autoMerge",
+          "functionality": "Автоматический merge безопасных обновлений (patch/minor)",
+          "parameters": ["pullRequest", "testResults"],
+          "return_type": "MergeResult"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "schedule",
+          "purpose": "Расписание проверки обновлений",
+          "initialization": "before 6am on monday",
+          "display_location": "renovate.json config"
+        },
+        {
+          "name": "automerge_rules",
+          "purpose": "Правила автоматического merge",
+          "initialization": "patch/minor: auto, major: manual review",
+          "display_location": "renovate.json packageRules"
+        }
+      ],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "Бот для автоматического обновления зависимостей. Экономит ~18 часов/неделю ($74,880/год). Security патчи применяются автоматически. 80-83% PR мержатся автоматически.",
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "service_11",
+      "service_name": "Feature Flag Service",
+      "methods": [
+        {
+          "name": "isEnabled",
+          "functionality": "Проверка включена ли фича для пользователя",
+          "parameters": ["featureName", "userId"],
+          "return_type": "Boolean"
+        },
+        {
+          "name": "enableForPercentage",
+          "functionality": "Включение фичи для процента пользователей (gradual rollout)",
+          "parameters": ["featureName", "percentage"],
+          "return_type": "void"
+        },
+        {
+          "name": "killSwitch",
+          "functionality": "Экстренное выключение фичи",
+          "parameters": ["featureName"],
+          "return_type": "void"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "implementation",
+          "purpose": "Библиотека для feature flags",
+          "initialization": "LaunchDarkly / Togglz / Unleash",
+          "display_location": "Application code"
+        }
+      ],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "Сервис управления feature flags. Позволяет деплоить код с выключенными фичами, включать постепенно (1% → 100%), быстро откатывать без деплоя. Отделяет деплой от релиза. Time to market: 30 дней → 1-2 дня.",
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "service_12",
+      "service_name": "Release on Demand (RoD) Service",
+      "methods": [
+        {
+          "name": "deployToProduction",
+          "functionality": "Деплой в продакшн по требованию",
+          "parameters": ["artifact", "environment"],
+          "return_type": "DeploymentResult"
+        },
+        {
+          "name": "rollback",
+          "functionality": "Откат к предыдущей версии",
+          "parameters": ["previousVersion"],
+          "return_type": "RollbackResult"
+        },
+        {
+          "name": "canaryDeploy",
+          "functionality": "Деплой на небольшую часть серверов (canary)",
+          "parameters": ["artifact", "percentage"],
+          "return_type": "DeploymentResult"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "frequency",
+          "purpose": "Частота релизов",
+          "initialization": "Monthly → Weekly → Daily (по этапам)",
+          "display_location": "CI/CD Pipeline"
+        }
+      ],
+      "initialization": "",
+      "display_location": "",
+      "functionality": "Сервис для релизов по требованию. Цель: релизы когда нужно (а не по расписанию), автоматический деплой, в рабочее время, маленькие частые изменения. Результат: Time to market 30 дней → 1-2 дня, downtime 8 часов → 0, rollback 8 часов → 1 минута.",
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    }
+  ]
+}

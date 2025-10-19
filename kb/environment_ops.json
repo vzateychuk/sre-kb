@@ -1,0 +1,980 @@
+{
+  "category": "environment_ops",
+  "created": "2025-10-17T21:55:59.370286",
+  "last_updated": "2025-10-18T12:00:00.000000",
+  "items": [
+    {
+      "id": "ops_1",
+      "category": "Application Portfolio",
+      "setup_instructions": "N/A",
+      "configuration": {
+        "applications_supported": [
+          "Mac maps (legacy)",
+          "Magnus (new Angular version of Mac maps)",
+          "DB forms (mac sdb phone)",
+          "Legal Agreement Backend Services"
+        ],
+        "overall_scope": "All legal agreement applications (also referred to as 'Submit apps')"
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-1.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:27:13.642758",
+      "last_updated": "2025-10-17T22:27:13.642764"
+    },
+    {
+      "id": "ops_2",
+      "category": "QA Team Structure & Scope",
+      "setup_instructions": "N/A",
+      "configuration": {
+        "team_lead_role": "QA Lead for Legal Agreement Apps",
+        "team_size": 4,
+        "team_composition": "3 contractors, 1 CITI employee",
+        "scope_of_work": "Working on all supported legal agreement applications together"
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [
+        "Providing services testing support for backend services (Sushil's work)",
+        "Performing UI automation for legal agreement applications"
+      ],
+      "monitoring": [],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-1.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:27:13.642773",
+      "last_updated": "2025-10-17T22:27:13.642776"
+    },
+    {
+      "id": "ops_3",
+      "category": "Testing Tools & Frameworks",
+      "setup_instructions": "N/A",
+      "configuration": {
+        "ui_automation_framework": "fast framework"
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [
+        "Implementing and maintaining UI automation using the fast framework"
+      ],
+      "monitoring": [],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-1.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:27:13.642780",
+      "last_updated": "2025-10-17T22:27:13.642782"
+    },
+    {
+      "id": "ops_4",
+      "category": "Regression Testing Environment",
+      "setup_instructions": "Configure a dedicated environment for running regression tests.",
+      "configuration": {
+        "OS": "Linux",
+        "Memory": "16GB",
+        "CPU": "4 cores"
+      },
+      "scheduled_tasks": [
+        "Run regression tests daily via cron job."
+      ],
+      "admin_operations": [
+        "Monitor test execution and results.",
+        "Troubleshoot test failures."
+      ],
+      "monitoring": [
+        "Track test execution time.",
+        "Monitor test failure rate."
+      ],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-2.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:50:30.443044",
+      "last_updated": "2025-10-17T22:50:30.443051"
+    },
+    {
+      "id": "ops_5",
+      "category": "FAST Integration",
+      "setup_instructions": "Integrate regression tests with the FAST dashboard.",
+      "configuration": {
+        "FAST_URL": "fast.example.com",
+        "API_KEY": "your_api_key"
+      },
+      "scheduled_tasks": [
+        "Post test results to FAST dashboard after each run."
+      ],
+      "admin_operations": [
+        "Manage FAST user accounts.",
+        "Configure FAST reporting."
+      ],
+      "monitoring": [
+        "Monitor FAST dashboard for test results.",
+        "Track test coverage in FAST."
+      ],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-2.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:50:30.443059",
+      "last_updated": "2025-10-17T22:50:30.443062"
+    },
+    {
+      "id": "ops_6",
+      "category": "Friday AI Integration",
+      "setup_instructions": "Gain access to Friday AI and integrate it into the testing workflow.",
+      "configuration": {
+        "FridayAI_URL": "friday.ai.example.com",
+        "API_KEY": "your_friday_ai_key"
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [
+        "Explore Friday AI features and capabilities.",
+        "Train Friday AI on project requirements."
+      ],
+      "monitoring": [
+        "Monitor Friday AI's test case generation performance.",
+        "Track time savings from using Friday AI."
+      ],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-2.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:50:30.443066",
+      "last_updated": "2025-10-17T22:50:30.443068"
+    },
+    {
+      "id": "ops_7",
+      "category": "Gradle Migration",
+      "setup_instructions": "Migrate existing repositories to Gradle build system.",
+      "configuration": {},
+      "scheduled_tasks": [
+        "Convert repositories to Gradle on a daily basis."
+      ],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-2.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:50:30.443071",
+      "last_updated": "2025-10-17T22:50:30.443072"
+    },
+    {
+      "id": "ops_8",
+      "category": "CI/CD Pipelines",
+      "setup_instructions": "Teams should own their CI/CD pipelines.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "project_scope_director_email.md_unknown"
+      ],
+      "created": "2025-10-17T23:02:58.655832",
+      "last_updated": "2025-10-17T23:02:58.655834"
+    },
+    {
+      "id": "ops_9",
+      "category": "Source Control",
+      "setup_instructions": "Teams should own their source control repos.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "project_scope_director_email.md_unknown"
+      ],
+      "created": "2025-10-17T23:02:58.655838",
+      "last_updated": "2025-10-17T23:02:58.655838"
+    },
+    {
+      "id": "ops_10",
+      "category": "Automation Scripts",
+      "setup_instructions": "Starting point at `https://github.com/CitiSandbox/rp47127.git`",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "project_scope_director_email.md_unknown"
+      ],
+      "created": "2025-10-17T23:02:58.655840",
+      "last_updated": "2025-10-17T23:02:58.655841"
+    },
+    {
+      "id": "ops_11",
+      "category": "Development Environment Setup",
+      "setup_instructions": "Access to Sumit's teams, Justin's checklist, and GitHub repository rp47127",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "action_plan_vladimir_zateychuk.md_unknown"
+      ],
+      "created": "2025-10-17T23:28:18.396652",
+      "last_updated": "2025-10-17T23:28:18.396655"
+    },
+    {
+      "id": "ops_12",
+      "category": "GitHub Enterprise Migration",
+      "setup_instructions": "Assess current repositories, create migration plan, train teams",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "action_plan_vladimir_zateychuk.md_unknown"
+      ],
+      "created": "2025-10-17T23:28:18.396659",
+      "last_updated": "2025-10-17T23:28:18.396660"
+    },
+    {
+      "id": "ops_13",
+      "category": "Gradle Migration",
+      "setup_instructions": "Analyze Maven projects, create Gradle build scripts, test builds",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "action_plan_vladimir_zateychuk.md_unknown"
+      ],
+      "created": "2025-10-17T23:28:18.396662",
+      "last_updated": "2025-10-17T23:28:18.396662"
+    },
+    {
+      "id": "ops_14",
+      "category": "Renovate Onboarding",
+      "setup_instructions": "Configure automatic updates, configure each repository, monitor updates",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "action_plan_vladimir_zateychuk.md_unknown"
+      ],
+      "created": "2025-10-17T23:28:18.396664",
+      "last_updated": "2025-10-17T23:28:18.396664"
+    },
+    {
+      "id": "ops_15",
+      "category": "CI/CD Automation",
+      "setup_instructions": "Automate CI/CD pipelines",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "action_plan_vladimir_zateychuk.md_unknown"
+      ],
+      "created": "2025-10-17T23:28:18.396666",
+      "last_updated": "2025-10-17T23:28:18.396666"
+    },
+    {
+      "id": "ops_16",
+      "category": "CI/CD Pipelines",
+      "setup_instructions": "Automate build, test, and deployment processes.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "books_summary_and_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:39:22.264649",
+      "last_updated": "2025-10-18T00:39:22.264652"
+    },
+    {
+      "id": "ops_17",
+      "category": "Automated Testing",
+      "setup_instructions": "Implement unit, integration, and e2e tests.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "books_summary_and_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:39:22.264656",
+      "last_updated": "2025-10-18T00:39:22.264656"
+    },
+    {
+      "id": "ops_18",
+      "category": "Code Reviews",
+      "setup_instructions": "Establish a mandatory code review process.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "books_summary_and_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:39:22.264658",
+      "last_updated": "2025-10-18T00:39:22.264659"
+    },
+    {
+      "id": "ops_19",
+      "category": "Static Analysis",
+      "setup_instructions": "Automate code quality analysis.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "books_summary_and_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:39:22.264660",
+      "last_updated": "2025-10-18T00:39:22.264661"
+    },
+    {
+      "id": "ops_20",
+      "category": "Monitoring & Alerting",
+      "setup_instructions": "Set up monitoring in production.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "books_summary_and_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:39:22.264662",
+      "last_updated": "2025-10-18T00:39:22.264662"
+    },
+    {
+      "id": "ops_21",
+      "category": "Infrastructure as Code",
+      "setup_instructions": "Automate infrastructure management.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "books_summary_and_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:39:22.264663",
+      "last_updated": "2025-10-18T00:39:22.264664"
+    },
+    {
+      "id": "ops_22",
+      "category": "GitHub Enterprise Migration - Preparation",
+      "setup_instructions": "Audit current repositories, get access to GitHub Enterprise, set up organizations and teams, create repository templates, configure integrations (CI/CD, monitoring).",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693400",
+      "last_updated": "2025-10-18T00:49:21.693403"
+    },
+    {
+      "id": "ops_23",
+      "category": "GitHub Enterprise Migration - Repository Migration",
+      "setup_instructions": "Start with simple repositories, create a copy in GitHub Enterprise, configure CI/CD pipelines, test workflow, migrate remaining repositories gradually, train the team, document the process, create a runbook.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693407",
+      "last_updated": "2025-10-18T00:49:21.693410"
+    },
+    {
+      "id": "ops_24",
+      "category": "GitHub Enterprise Migration - Best Practices",
+      "setup_instructions": "Configure branch protection (main/master), mandatory code review, mandatory status checks (CI/CD, tests), prohibit direct commits to main, set up pull request workflow (templates, automatic checks, JIRA integration, automatic branch closing).",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693412",
+      "last_updated": "2025-10-18T00:49:21.693413"
+    },
+    {
+      "id": "ops_25",
+      "category": "Gradle Migration - Analysis and Preparation",
+      "setup_instructions": "Audit Maven projects, analyze pom.xml files, identify complex dependencies, determine custom plugins, estimate build time, prepare Gradle configuration, create basic build.gradle, configure dependency repositories, configure plugins (Java, Spring Boot, etc.), configure testing.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693414",
+      "last_updated": "2025-10-18T00:49:21.693415"
+    },
+    {
+      "id": "ops_26",
+      "category": "Gradle Migration - Gradle Build Creation",
+      "setup_instructions": "Create basic build.gradle, configure testing, configure build (jar, bootJar).",
+      "configuration": {
+        "build.gradle": {
+          "plugins": [
+            "java",
+            "org.springframework.boot version '2.7.0'",
+            "io.spring.dependency-management version '1.0.11.RELEASE'"
+          ],
+          "repositories": [
+            "mavenCentral()",
+            "maven { url 'https://repo.spring.io/milestone' }"
+          ],
+          "dependencies": [
+            "implementation 'org.springframework.boot:spring-boot-starter-web'",
+            "implementation 'org.springframework.boot:spring-boot-starter-data-jpa'",
+            "testImplementation 'org.springframework.boot:spring-boot-starter-test'"
+          ],
+          "test": {
+            "useJUnitPlatform": true,
+            "testLogging": {
+              "events": [
+                "passed",
+                "skipped",
+                "failed"
+              ]
+            }
+          },
+          "jar": {
+            "enabled": false,
+            "archiveClassifier": ""
+          },
+          "bootJar": {
+            "archiveBaseName": "app-name",
+            "archiveVersion": "1.0.0"
+          }
+        }
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693416",
+      "last_updated": "2025-10-18T00:49:21.693417"
+    },
+    {
+      "id": "ops_27",
+      "category": "Gradle Migration - Dependency Migration",
+      "setup_instructions": "Convert dependencies, transfer all dependencies from pom.xml, configure versions in dependency-management, check version compatibility, test build, configure profiles for different environments (dev, test, prod), configure configuration files, test deployment to different environments.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693418",
+      "last_updated": "2025-10-18T00:49:21.693419"
+    },
+    {
+      "id": "ops_28",
+      "category": "Gradle Migration - Optimization and Testing",
+      "setup_instructions": "Optimize build, configure parallel build, enable caching, optimize dependencies, measure build time, integrate with CI/CD, update CI/CD pipelines, configure caching in CI, test automatic build, document the process.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693420",
+      "last_updated": "2025-10-18T00:49:21.693420"
+    },
+    {
+      "id": "ops_29",
+      "category": "Renovate Onboarding - Setup",
+      "setup_instructions": "Install Renovate App in GitHub Enterprise, configure access to repositories, create configuration file renovate.json.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693421",
+      "last_updated": "2025-10-18T00:49:21.693422"
+    },
+    {
+      "id": "ops_30",
+      "category": "Renovate Onboarding - Basic Configuration",
+      "setup_instructions": "Configure renovate.json with extends, timezone, schedule, and packageRules.",
+      "configuration": {
+        "renovate.json": {
+          "extends": [
+            "config:base"
+          ],
+          "timezone": "Europe/London",
+          "schedule": [
+            "before 6am on monday"
+          ],
+          "packageRules": [
+            {
+              "updateTypes": [
+                "minor",
+                "patch"
+              ],
+              "automerge": true
+            },
+            {
+              "updateTypes": [
+                "major"
+              ],
+              "automerge": false
+            }
+          ]
+        }
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693423",
+      "last_updated": "2025-10-18T00:49:21.693424"
+    },
+    {
+      "id": "ops_31",
+      "category": "Renovate Onboarding - Update Rules",
+      "setup_instructions": "Configure rules for different dependency types, configure automatic merge.",
+      "configuration": {
+        "packageRules": [
+          {
+            "packagePatterns": [
+              "^org\\.springframework\\."
+            ],
+            "groupName": "Spring Framework",
+            "schedule": [
+              "before 6am on monday"
+            ]
+          },
+          {
+            "packagePatterns": [
+              "^com\\.fasterxml\\."
+            ],
+            "groupName": "Jackson",
+            "schedule": [
+              "before 6am on monday"
+            ]
+          },
+          {
+            "packagePatterns": [
+              "^org\\.junit\\."
+            ],
+            "groupName": "JUnit",
+            "automerge": true
+          }
+        ],
+        "automerge": true,
+        "automergeType": "pr",
+        "requiredStatusChecks": null,
+        "vulnerabilityAlerts": {
+          "enabled": true
+        }
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693425",
+      "last_updated": "2025-10-18T00:49:21.693425"
+    },
+    {
+      "id": "ops_32",
+      "category": "Renovate Onboarding - Notifications and Monitoring",
+      "setup_instructions": "Configure notifications, set up dashboard for tracking updates, create reports on the number of updates, set up alerts for critical updates.",
+      "configuration": {
+        "notifications": [
+          {
+            "type": "slack",
+            "channel": "#dev-updates"
+          }
+        ]
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693426",
+      "last_updated": "2025-10-18T00:49:21.693427"
+    },
+    {
+      "id": "ops_33",
+      "category": "Renovate Onboarding - Team Training",
+      "setup_instructions": "Explain how to review Renovate PRs, set up a process for testing updates, create a runbook for the team, set up monitoring of Renovate's operation, create a process for escalating problems, document troubleshooting.",
+      "configuration": {},
+      "scheduled_tasks": [],
+      "admin_operations": [],
+      "monitoring": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.693428",
+      "last_updated": "2025-10-18T00:49:21.693429"
+    },
+    {
+      "id": "ops_34",
+      "category": "Gradle Migration - ROI и Метрики",
+      "setup_instructions": "Миграция с Maven на Gradle для ускорения сборки",
+      "configuration": {
+        "current_state": {
+          "build_tool": "Maven",
+          "clean_build_time": "10-12 минут",
+          "incremental_build_time": "10-12 минут (нет инкрементальности)",
+          "daily_builds_per_developer": "10 сборок",
+          "time_spent_per_day": "100 минут (1.7 часа)"
+        },
+        "target_state": {
+          "build_tool": "Gradle",
+          "clean_build_time": "10 минут",
+          "incremental_build_time": "1-3 минуты (только измененное)",
+          "daily_builds_per_developer": "10 сборок",
+          "time_spent_per_day": "28 минут"
+        },
+        "roi_calculation": {
+          "time_saved_per_developer_per_day": "72 минуты",
+          "team_size": "5 разработчиков",
+          "time_saved_per_team_per_day": "360 минут (6 часов)",
+          "time_saved_per_month": "120 часов (3 недели работы)",
+          "contractor_rate": "$80/час",
+          "monthly_savings": "$9,600",
+          "annual_savings": "$115,200"
+        }
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [
+        "Инкрементальная сборка (компилирует только измененное)",
+        "Build cache (локальный + shared для команды)",
+        "Параллельная сборка (использует все CPU cores)",
+        "Daemon process (JVM остается в памяти)"
+      ],
+      "monitoring": [
+        "Build time metrics",
+        "Cache hit rate",
+        "Time savings per developer"
+      ],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "ops_35",
+      "category": "Release Process Improvement - Phased Approach",
+      "setup_instructions": "Поэтапное улучшение процесса релизов от monthly к continuous deployment",
+      "configuration": {
+        "phase_1_automation": {
+          "timeline": "Месяцы 1-2",
+          "goal": "Автоматизация ручных процессов",
+          "frequency": "Monthly",
+          "time": "8 hours → 2 hours",
+          "when": "Weekend",
+          "downtime": "8 hours",
+          "savings": "18 hours/month"
+        },
+        "phase_2_frequency": {
+          "timeline": "Месяцы 3-4",
+          "goal": "Bi-weekly releases",
+          "frequency": "Bi-weekly",
+          "time": "2 hours → 1 hour",
+          "when": "Weekend",
+          "downtime": "30 minutes",
+          "approach": "Blue-Green Deployment + automated rollback"
+        },
+        "phase_3_business_hours": {
+          "timeline": "Месяцы 5-6",
+          "goal": "Weekly releases в рабочее время",
+          "frequency": "Weekly",
+          "time": "1 hour → 30 minutes",
+          "when": "Business hours (среда 14:00)",
+          "downtime": "0 (zero-downtime)",
+          "approach": "Feature Flags + Canary Deployments"
+        },
+        "phase_4_continuous": {
+          "timeline": "Месяцы 7-12",
+          "goal": "Continuous deployment",
+          "frequency": "Multiple per day",
+          "time": "15-20 minutes (automated)",
+          "when": "Any time",
+          "downtime": "0",
+          "approach": "Full automation + Advanced feature flags"
+        },
+        "roi": {
+          "current_cost": "$43,200/year (12 releases × 24 person-hours × 1.5 overtime)",
+          "target_cost": "$2,600/year (52 releases × 0.5 hours × no overtime)",
+          "savings": "$40,600/year",
+          "additional_benefits": "Time to market: 30 days → 3 days (10x faster)"
+        }
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [
+        "Deployment scripts (Ansible/Terraform)",
+        "Jenkins/GitLab CI pipeline",
+        "Blue-Green deployment setup",
+        "Feature flags infrastructure",
+        "Monitoring and alerting"
+      ],
+      "monitoring": [
+        "Deployment frequency",
+        "Mean time to deploy",
+        "Mean time to recover",
+        "Change failure rate",
+        "Downtime tracking"
+      ],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "ops_36",
+      "category": "Branching Strategy - GitHub Flow",
+      "setup_instructions": "Короткоживущие feature branches, мерж в main, нет долгоживущих веток",
+      "configuration": {
+        "strategy": "GitHub Flow",
+        "branch_lifetime": "Максимум 3-5 дней",
+        "pr_size": "< 200 строк кода (оптимально)",
+        "review_time_target": "< 24 часа",
+        "rules": [
+          "Feature branch создается от main",
+          "Работа 1-5 дней",
+          "PR создается для review",
+          "После merge → ветка удаляется",
+          "Main всегда стабильная (готова к продакшну)"
+        ],
+        "metrics": {
+          "poor_strategy": {
+            "branch_lifetime": "2-3 недели",
+            "merge_time": "4-8 часов",
+            "conflicts": "Постоянные",
+            "review_time": "1-2 недели",
+            "productivity": "-50%"
+          },
+          "good_strategy": {
+            "branch_lifetime": "1-2 дня",
+            "merge_time": "15-30 минут",
+            "conflicts": "< 5%",
+            "review_time": "< 24 часа",
+            "productivity": "+100%"
+          }
+        }
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [
+        "Branch protection rules",
+        "Mandatory code review (min 1 reviewer)",
+        "Mandatory status checks (CI/CD)",
+        "No direct commits to main"
+      ],
+      "monitoring": [
+        "PR size distribution",
+        "Time from PR creation to merge",
+        "Number of merge conflicts",
+        "Code review time"
+      ],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "ops_37",
+      "category": "Renovate Bot - Automated Dependency Updates",
+      "setup_instructions": "Автоматическое обновление зависимостей с auto-merge для безопасных обновлений",
+      "configuration": {
+        "schedule": "before 6am on monday",
+        "pr_concurrent_limit": 3,
+        "automerge_rules": {
+          "patch_minor": "автоматический merge",
+          "major": "ручной review",
+          "security": "автоматический merge (любое время)"
+        },
+        "grouping": {
+          "spring_framework": "Группировать Spring обновления",
+          "test_dependencies": "Группировать junit, mockito, assertj",
+          "security_patches": "Отдельный PR с высоким приоритетом"
+        },
+        "monitoring": {
+          "dashboard_url": "https://app.renovatebot.com/dashboard",
+          "slack_notifications": "#dev-updates channel",
+          "metrics_tracked": [
+            "PRs created per week",
+            "Auto-merge rate",
+            "Average merge time",
+            "Security vulnerabilities fixed"
+          ]
+        },
+        "roi": {
+          "time_saved_per_week": "~18 hours",
+          "manual_checks": "8 hours saved",
+          "pr_creation": "6 hours saved",
+          "testing": "4 hours saved",
+          "annual_savings": "$74,880 ($80/hour × 18 hours × 52 weeks)"
+        },
+        "typical_week": {
+          "total_prs": "25-42 PRs",
+          "auto_merged": "20-35 PRs (80-83%)",
+          "manual_review": "3-5 PRs (12%)",
+          "closed_outdated": "2 PRs (5%)",
+          "average_merge_time": "2-3 hours"
+        }
+      },
+      "scheduled_tasks": [
+        "Monday 05:00 - Scan dependencies",
+        "Monday 05:00-06:00 - Create PRs with updates",
+        "Continuous - Auto-merge safe updates"
+      ],
+      "admin_operations": [
+        "Review major version updates",
+        "Handle failed CI on update PRs",
+        "Manage ignore list for legacy dependencies"
+      ],
+      "monitoring": [
+        "Dependency health (% up-to-date)",
+        "Security vulnerabilities count",
+        "Time from vulnerability to fix",
+        "Auto-merge success rate"
+      ],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "ops_38",
+      "category": "Feature Flags Implementation",
+      "setup_instructions": "Внедрение feature flags для отделения деплоя от релиза",
+      "configuration": {
+        "tools": ["LaunchDarkly", "Togglz", "Unleash"],
+        "usage_pattern": {
+          "development": "Код с feature flag = OFF (выключен)",
+          "deployment": "Деплой в prod с выключенными фичами (zero risk)",
+          "testing": "Включить для QA team (5 человек)",
+          "canary": "Включить для 1% пользователей",
+          "gradual_rollout": "1% → 5% → 25% → 50% → 100%",
+          "rollback": "Выключить flag за 1 секунду (без деплоя)"
+        },
+        "benefits": {
+          "deploy_vs_release": "Деплой ≠ Релиз (разделены)",
+          "rollback_speed": "1 секунда (вместо 8 часов)",
+          "ab_testing": "50% users old, 50% new",
+          "team_independence": "Команды релизят независимо",
+          "time_to_market": "30 дней → 1-2 дня"
+        },
+        "real_example": {
+          "company": "Etsy",
+          "codebase": "10 million строк PHP (монолит)",
+          "deploys_per_day": "50+",
+          "secret": "Feature flags + команды по фичам + continuous deployment"
+        }
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [
+        "Управление флагами через dashboard",
+        "Мониторинг metrics при rollout",
+        "Kill switch при проблемах",
+        "Cleanup старых флагов"
+      ],
+      "monitoring": [
+        "Feature flag status по всем фичам",
+        "Rollout percentage per feature",
+        "User experience metrics",
+        "Error rate comparison (flag ON vs OFF)"
+      ],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "ops_39",
+      "category": "Team Interview Checklist - Tech Leads Coaching",
+      "setup_instructions": "Структурированный чек-лист для интервью команд в рамках проекта улучшения dev организации",
+      "configuration": {
+        "interview_topics": [
+          {
+            "topic": "Team Organization",
+            "question": "Сколько человек в команде? Кто Team Lead? Как распределены роли?",
+            "rationale": "Понять соответствие two pizza team (< 10 человек) и четкость ответственности. Команды без четкого лида обычно менее эффективны."
+          },
+          {
+            "topic": "Testing & Quality",
+            "question": "Используете FAST framework? Какое покрытие автотестами? Regression tests запускаются автоматически или вручную?",
+            "rationale": "Проверить compliance с корпоративными стандартами. Ручное тестирование = узкое место. Нужно понять готовность к автоматизации."
+          },
+          {
+            "topic": "Build System",
+            "question": "Maven или Gradle? Сколько времени занимает clean build? А incremental build?",
+            "rationale": "Выявить кандидатов для Gradle миграции. Если сборка > 5 минут - это боль команды. Gradle может дать 50-70% ускорения. Приоритезируем команды с самыми долгими сборками."
+          },
+          {
+            "topic": "CI/CD Pipeline",
+            "question": "CI/CD настроен? Что именно автоматизировано? Deploy происходит автоматически или вручную?",
+            "rationale": "Понять уровень автоматизации. Ручной deploy = риск и потеря времени. Это напрямую влияет на частоту релизов и возможность RoD."
+          },
+          {
+            "topic": "Branching Strategy",
+            "question": "Какая стратегия веток? Как долго живут feature branches? Обязателен ли code review перед merge?",
+            "rationale": "Долгоживущие ветки (> 5 дней) = merge hell. Отсутствие code review = низкое качество. Это влияет на продуктивность команды на ±50-100%."
+          },
+          {
+            "topic": "Release Process",
+            "question": "Как часто релизы? Кто делает deploy? Сколько занимает? Есть ли downtime? Как происходит rollback?",
+            "rationale": "Главная боль: monthly releases, ручной процесс, weekend work. Понять текущий baseline для измерения улучшений. Target: weekly releases в рабочее время с zero downtime."
+          },
+          {
+            "topic": "Version Control & GitHub",
+            "question": "Используете GitHub Enterprise? Если нет - что используете? Довольны текущей системой?",
+            "rationale": "Приоритет миграции на GitHub Enterprise для унификации и лучшей интеграции. Понять сложность миграции и готовность команды."
+          },
+          {
+            "topic": "Dependency Management",
+            "question": "Как обновляете зависимости? Как часто? Были ли проблемы с security vulnerabilities?",
+            "rationale": "Ручное обновление зависимостей = 2-4 часа/неделя. Renovate может автоматизировать это. Security patches должны применяться немедленно."
+          },
+          {
+            "topic": "Pain Points",
+            "question": "Что тормозит команду больше всего? Топ-3 проблемы которые хотелось бы решить в первую очередь?",
+            "rationale": "Услышать проблемы их словами. Это покажет где quick wins и поможет приоритизировать улучшения. Команда будет motivated если решим их боли."
+          },
+          {
+            "topic": "JIRA Integration",
+            "question": "JIRA интегрирована с Git и CI/CD? Автоматически обновляется статус задач при deploy?",
+            "rationale": "Ручное обновление JIRA = потеря времени. Менеджменту нужна visibility. Автоматизация дает трейсабельность от задачи до кода и обратно."
+          }
+        ],
+        "interview_approach": {
+          "first_interviews": "Проводить вместе с партнером (Lavrenov, Alexander) для синхронизации подхода",
+          "later_interviews": "Разделить команды между участниками проекта",
+          "documentation": "Создавать отчет по каждой команде: текущее состояние, проблемы, рекомендации"
+        }
+      },
+      "scheduled_tasks": [],
+      "admin_operations": [
+        "Планирование интервью с team leads",
+        "Документирование результатов",
+        "Выявление топ-3 проблем каждой команды",
+        "Приоритизация улучшений"
+      ],
+      "monitoring": [],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:30:00.000000",
+      "last_updated": "2025-10-18T12:30:00.000000"
+    }
+  ]
+}

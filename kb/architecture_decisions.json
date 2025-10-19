@@ -1,0 +1,378 @@
+{
+  "category": "architecture_decisions",
+  "created": "2025-10-17T21:55:59.367195",
+  "last_updated": "2025-10-18T12:00:00.000000",
+  "items": [
+    {
+      "id": "arch_1",
+      "decision": "Technology Stack for New UI Development",
+      "rationale": "Modernization and creation of a new version for the 'Mac maps' application.",
+      "impact": "The new version, 'Magnus', is being developed using Angular.",
+      "standards": [
+        "Angular framework"
+      ],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-1.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:27:13.641277",
+      "last_updated": "2025-10-17T22:27:13.641284"
+    },
+    {
+      "id": "arch_2",
+      "decision": "UI Automation Framework Selection",
+      "rationale": "To standardize and facilitate UI testing across legal agreement applications.",
+      "impact": "UI automation has been implemented for at least two applications.",
+      "standards": [
+        "fast framework"
+      ],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-1.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:27:13.641293",
+      "last_updated": "2025-10-17T22:27:13.641296"
+    },
+    {
+      "id": "arch_3",
+      "decision": "Adopt BDD and Cucumber-style testing.",
+      "rationale": "To improve test readability and collaboration between technical and non-technical stakeholders.",
+      "impact": "Requires training and a shift in testing mindset.",
+      "standards": [
+        "Gherkin syntax"
+      ],
+      "patterns": [
+        "Given-When-Then"
+      ],
+      "security_principles": [],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-2.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:50:30.442132",
+      "last_updated": "2025-10-17T22:50:30.442135"
+    },
+    {
+      "id": "arch_4",
+      "decision": "Prioritize API testing over UI testing.",
+      "rationale": "API tests are more stable, faster, and less brittle than UI tests.",
+      "impact": "Requires access to API contracts and Swagger documentation.",
+      "standards": [
+        "RESTful API standards"
+      ],
+      "patterns": [
+        "Microservice architecture"
+      ],
+      "security_principles": [],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-2.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:50:30.442139",
+      "last_updated": "2025-10-17T22:50:30.442140"
+    },
+    {
+      "id": "arch_5",
+      "decision": "Migrate from Selenium-based UI tests to RESTful API calls for regression testing.",
+      "rationale": "Selenium tests are slow and brittle, leading to high maintenance costs. RESTful API calls are faster and more stable.",
+      "impact": "Requires refactoring existing tests and obtaining API documentation (Swagger).",
+      "standards": [
+        "REST API design principles"
+      ],
+      "patterns": [
+        "API-driven testing"
+      ],
+      "security_principles": [],
+      "meetings": [
+        "20251017_CITI_Sushil-Kandavelu-2.mp3_2025-01-03"
+      ],
+      "created": "2025-10-17T22:50:30.442142",
+      "last_updated": "2025-10-17T22:50:30.442143"
+    },
+    {
+      "id": "arch_6",
+      "decision": "Break up monolithic components into features.",
+      "rationale": "Monolithic architecture leads to complex dependencies and cumbersome release processes.",
+      "impact": "Reduced coupling amongst feature squads/teams and increased release frequency.",
+      "standards": [],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "project_scope_director_email.md_unknown"
+      ],
+      "created": "2025-10-17T23:02:58.655384",
+      "last_updated": "2025-10-17T23:02:58.655388"
+    },
+    {
+      "id": "arch_7",
+      "decision": "Organize teams based on features.",
+      "rationale": "To reduce coupling and increase release frequency.",
+      "impact": "Improved team autonomy and faster delivery cycles.",
+      "standards": [],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "project_scope_director_email.md_unknown"
+      ],
+      "created": "2025-10-17T23:02:58.655392",
+      "last_updated": "2025-10-17T23:02:58.655393"
+    },
+    {
+      "id": "arch_8",
+      "decision": "Migrate to modern technologies (Github, Gradle, Renovate).",
+      "rationale": "Modern solutions adoption leads to less manual, more automated workflows.",
+      "impact": "Increased automation and reduced manual effort.",
+      "standards": [],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "project_scope_director_email.md_unknown"
+      ],
+      "created": "2025-10-17T23:02:58.655395",
+      "last_updated": "2025-10-17T23:02:58.655395"
+    },
+    {
+      "id": "arch_9",
+      "decision": "Migrate to GitHub Enterprise",
+      "rationale": "Modern Git workflow",
+      "impact": "Improved collaboration and code management",
+      "standards": [],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "action_plan_vladimir_zateychuk.md_unknown"
+      ],
+      "created": "2025-10-17T23:28:18.396128",
+      "last_updated": "2025-10-17T23:28:18.396131"
+    },
+    {
+      "id": "arch_10",
+      "decision": "Migrate to Gradle",
+      "rationale": "Faster and more reliable builds",
+      "impact": "Reduced build times and improved build stability",
+      "standards": [],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "action_plan_vladimir_zateychuk.md_unknown"
+      ],
+      "created": "2025-10-17T23:28:18.396135",
+      "last_updated": "2025-10-17T23:28:18.396136"
+    },
+    {
+      "id": "arch_11",
+      "decision": "Onboard Renovate",
+      "rationale": "Automated dependency updates",
+      "impact": "Reduced security vulnerabilities and improved code quality",
+      "standards": [],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "action_plan_vladimir_zateychuk.md_unknown"
+      ],
+      "created": "2025-10-17T23:28:18.396140",
+      "last_updated": "2025-10-17T23:28:18.396141"
+    },
+    {
+      "id": "arch_12",
+      "decision": "НЕ разбивать монолит на микросервисы - улучшить процессы работы с монолитом",
+      "rationale": "Разбиение монолита требует глубокого знания системы, архитектора, сложно в банковской бюрократии, высокий риск. Вместо этого: feature flags + модульная структура + организация команд по feature areas.",
+      "impact": "Независимые релизы команд без изменения архитектуры. Daily deploys монолита с feature flags. Time to market: 30 дней → 1-2 дня. Минимальный риск.",
+      "standards": [
+        "Feature flags (LaunchDarkly/Togglz)",
+        "Модульная структура кода",
+        "GitHub Flow"
+      ],
+      "patterns": [
+        "Feature Toggle Pattern",
+        "Modular Monolith",
+        "Team Topologies - Feature Teams"
+      ],
+      "security_principles": [],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-17T23:28:18.396142",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "arch_13",
+      "decision": "Implement Release on Demand (RoD)",
+      "rationale": "Improve release processes",
+      "impact": "Faster and more frequent releases",
+      "standards": [],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "action_plan_vladimir_zateychuk.md_unknown"
+      ],
+      "created": "2025-10-17T23:28:18.396144",
+      "last_updated": "2025-10-17T23:28:18.396145"
+    },
+    {
+      "id": "arch_14",
+      "decision": "Migrate to GitHub Enterprise",
+      "rationale": "To gain modern Git workflow capabilities, automated pull requests, mandatory code review, CI/CD integration, and code change transparency.",
+      "impact": "Improved development speed, code quality, visibility, and integration.",
+      "standards": [],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.692502",
+      "last_updated": "2025-10-18T00:49:21.692505"
+    },
+    {
+      "id": "arch_15",
+      "decision": "Migrate from Maven to Gradle",
+      "rationale": "To achieve faster and more flexible build system with incremental builds, simpler DSL, efficient dependency caching, and better IDE/CI/CD integration.",
+      "impact": "Improved build speed, CI/CD time, cache size, and configuration simplicity.",
+      "standards": [],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.692509",
+      "last_updated": "2025-10-18T00:49:21.692510"
+    },
+    {
+      "id": "arch_16",
+      "decision": "Onboard Renovate for dependency updates",
+      "rationale": "To automate dependency updates, ensure timely security patches, improve performance with new versions, prevent breaking changes, and free up team time.",
+      "impact": "Reduced time spent on updates, fewer security vulnerabilities and breaking changes, and more time for feature development.",
+      "standards": [],
+      "patterns": [],
+      "security_principles": [],
+      "meetings": [
+        "detailed_implementation_guide.md_unknown"
+      ],
+      "created": "2025-10-18T00:49:21.692512",
+      "last_updated": "2025-10-18T00:49:21.692513"
+    },
+    {
+      "id": "arch_17",
+      "decision": "Внедрение Feature Flags для независимых релизов",
+      "rationale": "Feature flags позволяют деплоить код в продакшн с выключенными фичами, включать их постепенно (1% → 100% пользователей), быстро откатывать без деплоя. Отделяет деплой от релиза.",
+      "impact": "Команды могут релизить независимо. Rollback за 1 секунду. A/B тестирование. Time to market сокращается с 30 дней до 1-2 дней. Пример: Etsy делает 50+ deploys/day с монолитом благодаря feature flags.",
+      "standards": [
+        "LaunchDarkly",
+        "Togglz",
+        "Unleash"
+      ],
+      "patterns": [
+        "Feature Toggle Pattern",
+        "Gradual Rollout",
+        "Canary Release"
+      ],
+      "security_principles": [],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "arch_18",
+      "decision": "Модульная структура кода в рамках монолита",
+      "rationale": "Четкие границы модулей, слабая связанность, каждый модуль = отдельный Gradle subproject. Модули общаются только через API. Легче понять, тестировать, в будущем выделить в микросервис если понадобится.",
+      "impact": "Команды могут работать независимо над своими модулями. Легче тестировать изолированно. Уменьшение merge конфликтов. Подготовка к возможному переходу на микросервисы в будущем (но не сейчас!).",
+      "standards": [
+        "Gradle multi-project build",
+        "API-first design"
+      ],
+      "patterns": [
+        "Modular Monolith",
+        "Bounded Context (DDD)",
+        "Hexagonal Architecture"
+      ],
+      "security_principles": [],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "arch_19",
+      "decision": "GitHub Flow - короткоживущие feature branches",
+      "rationale": "Feature branches живут максимум 3-5 дней, мержатся в main. Нет долгоживущих веток (develop, release). Избегание merge hell. Быстрый code review (< 24 часа).",
+      "impact": "Продуктивность +100%. Время merge: 2 недели → 1 день. Конфликтов < 5%. PR < 200 строк = review за 2-4 часа, меньше багов. Команды не блокируют друг друга.",
+      "standards": [
+        "GitHub Flow",
+        "Trunk-based development"
+      ],
+      "patterns": [
+        "Short-lived branches",
+        "Continuous Integration"
+      ],
+      "security_principles": [],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "arch_20",
+      "decision": "JIRA интеграция с Git/CI/CD",
+      "rationale": "Автоматическая связь JIRA задач с кодом, PR, деплоями. Branch naming: feature/PROJ-123-description. Commit format: PROJ-123: message. Автоматические обновления статусов в JIRA при merge/deploy.",
+      "impact": "Видимость для менеджмента. Трейсабельность от задачи до кода. Автоматические release notes. Не нужно вручную обновлять JIRA. Менеджер видит реальный статус задачи в реальном времени.",
+      "standards": [
+        "Conventional Commits",
+        "Branch naming convention"
+      ],
+      "patterns": [
+        "Webhook integration",
+        "Event-driven automation"
+      ],
+      "security_principles": [],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "arch_21",
+      "decision": "Blue-Green Deployment для быстрого rollback",
+      "rationale": "Две идентичные среды: Blue (current prod) и Green (new version). Deploy в Green, тестируем, переключаем трафик. Rollback = переключить обратно на Blue за 1 минуту.",
+      "impact": "Zero-downtime deployments. Быстрый rollback (8 часов → 1 минута). Downtime: 8 часов → 0. Релизы в рабочее время. Снижение риска.",
+      "standards": [
+        "Blue-Green deployment",
+        "Load balancer configuration"
+      ],
+      "patterns": [
+        "Zero-downtime deployment",
+        "Infrastructure as Code"
+      ],
+      "security_principles": [],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    },
+    {
+      "id": "arch_22",
+      "decision": "Canary Deployment для снижения риска",
+      "rationale": "Deploy на 1 сервер из 20, мониторинг 30 минут. Если OK → deploy на остальные. Если проблема → rollback только 1 сервера. Постепенный rollout нагрузки.",
+      "impact": "Риск минимален - только 5% пользователей видят новую версию сначала. Если проблема - быстро обнаруживается и откатывается. Confidence перед full rollout.",
+      "standards": [
+        "Canary release",
+        "Monitoring and alerting"
+      ],
+      "patterns": [
+        "Progressive delivery",
+        "Risk mitigation"
+      ],
+      "security_principles": [],
+      "meetings": [
+        "tech_leads_coaching_2025-10-18"
+      ],
+      "created": "2025-10-18T12:00:00.000000",
+      "last_updated": "2025-10-18T12:00:00.000000"
+    }
+  ]
+}

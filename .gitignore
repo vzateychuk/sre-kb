@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cursor
+.cursor/
+
+# Project specific
+*.log
+*.tmp
+.cache/
+
+# Temporary output files (keep structure, ignore temp files)
+out/*.tmp
+out/*.backup
+
+# OS specific
+Thumbs.db
+desktop.ini
+
+# Secrets and credentials
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Audio files (if working with meeting recordings)
+*.mp3
+*.wav
+*.m4a
+
+# Backup files
+*.bak
+*~
+
+# Generated documentation (optional - uncomment if you want to ignore)
+# out/
+.cursorrules
